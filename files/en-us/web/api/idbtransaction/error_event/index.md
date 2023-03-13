@@ -78,8 +78,6 @@ dBOpenRequest.onsuccess = (event) => {
 };
 ```
 
-The same example, using the `onerror` property instead of `addEventListener()`:
-
 ```js
 // Open the database
 const dBOpenRequest = window.indexedDB.open("toDoList", 4);
